@@ -1,0 +1,267 @@
+@font-face {
+  font-family: sans;
+  src: url(../font/iransans.woff);
+}
+
+/* line 6, D:/golha/scss/_base.scss */
+a {
+  text-decoration: none;
+}
+
+/* line 45, D:/golha/scss/_base.scss */
+.header__brand {
+  display: flex;
+  flex-direction: row-reverse;
+  list-style: none;
+  justify-content: space-between;
+}
+
+/* line 51, D:/golha/scss/_base.scss */
+.navbar__brand__title {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 12px;
+}
+
+/* line 58, D:/golha/scss/_base.scss */
+.navbar__brand__title span {
+  font-family: "sans", sans-serif;
+  text-align: center;
+  line-height: 1;
+}
+
+/* line 66, D:/golha/scss/_base.scss */
+element {
+  border-width: 1px;
+  border-style: solid;
+  color: #0092f7;
+  display: inline-block;
+  height: 18px;
+  border-radius: 30px;
+  vertical-align: middle;
+}
+
+/* line 5, D:/golha/scss/main.scss */
+body {
+  background-color: #dcdcdc !important;
+}
+
+/* line 8, D:/golha/scss/main.scss */
+.header {
+  width: 100%;
+  height: 90px;
+  padding: 20px 0;
+  background-color: white;
+}
+
+/* line 16, D:/golha/scss/main.scss */
+.header .contactMenu ul {
+  display: flex;
+  flex-direction: row-reverse;
+  list-style: none;
+  justify-content: space-between;
+  width: 200px;
+  padding: 0;
+}
+
+/* line 22, D:/golha/scss/main.scss */
+.header .contactMenu ul li {
+  padding: 5px 10px;
+  border-left: 1px dashed #a8a4a4;
+  padding-bottom: 0;
+  padding-right: 0;
+}
+
+/* line 28, D:/golha/scss/main.scss */
+.header .contactMenu ul li a {
+  font-size: 12px;
+  text-decoration: none;
+  cursor: pointer;
+  color: #828282;
+  font-family: "sans", sans-serif;
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  align-items: center;
+  justify-content: center;
+}
+
+/* line 43, D:/golha/scss/main.scss */
+.header nav ul {
+  display: flex;
+  flex-direction: row-reverse;
+  list-style: none;
+}
+
+/* line 46, D:/golha/scss/main.scss */
+.header nav ul li {
+  padding: 0 10px;
+  padding-right: 0;
+}
+
+/* line 51, D:/golha/scss/main.scss */
+.header nav ul li ul {
+  display: flex;
+  flex-direction: row-reverse;
+  list-style: none;
+  justify-content: space-between;
+}
+
+/* line 55, D:/golha/scss/main.scss */
+.header nav ul li ul li {
+  padding: 5px 10px;
+  border-left: 1px dashed #a8a4a4;
+  padding-bottom: 0;
+}
+
+/* line 59, D:/golha/scss/main.scss */
+.header nav ul li ul li a {
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  align-items: center;
+  justify-content: center;
+  font-size: 12px;
+  text-decoration: none;
+  cursor: pointer;
+  color: #828282;
+  font-family: "sans", sans-serif;
+}
+
+/* line 78, D:/golha/scss/main.scss */
+.search-frame {
+  color: #0092f7;
+  background-image: url("../img/uzVDNJUi1w.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 600px;
+  border-radius: 0 0 20px 20px;
+}
+
+/* line 92, D:/golha/scss/main.scss */
+.search-frame .motto {
+  color: white;
+  font-family: "sans", sans-serif;
+  margin-bottom: 40px;
+}
+
+/* line 100, D:/golha/scss/main.scss */
+.search-frame .search-box {
+  display: flex;
+  background-color: #dcdcdc;
+  border-radius: 10px;
+  height: 50px;
+  width: 600px;
+}
+
+/* line 116, D:/golha/scss/main.scss */
+.search-frame .search-box .search-box__btn {
+  background-color: #ef2a18;
+  border-radius: 10px 0 0 10px;
+  width: 60px;
+  height: inherit;
+  display: flex;
+  justify-content: center;
+  padding-top: 14px;
+  cursor: pointer;
+}
+
+/* line 126, D:/golha/scss/main.scss */
+.search-frame .search-box .search-box__btn i {
+  font-size: 20px;
+  color: white;
+}
+
+/* line 139, D:/golha/scss/main.scss */
+.category {
+  position: relative;
+  top: -100px;
+  display: flex;
+  justify-content: center;
+}
+
+/* line 144, D:/golha/scss/main.scss */
+.category .categoryFrame {
+  display: flex;
+  flex-direction: row-reverse;
+  list-style: none;
+  min-height: 270px;
+  background-image: url("");
+  border-radius: 15px;
+  background-color: white;
+  width: 80%;
+}
+
+/* line 153, D:/golha/scss/main.scss */
+.category .categoryFrame .categoryFrame__product {
+  width: 60%;
+  padding-right: 30px;
+}
+
+/* line 157, D:/golha/scss/main.scss */
+.category .categoryFrame .categoryFrame__product .categoryFrame__product__title {
+  line-height: 4;
+  text-align: right;
+  font-family: "sans", sans-serif;
+  font-size: 14px;
+  color: #2b2a2a;
+  border-bottom: 2px solid #828282;
+}
+
+/* line 164, D:/golha/scss/main.scss */
+.category .categoryFrame .categoryFrame__product .categoryFrame__product__menu {
+  display: flex;
+  flex-direction: row-reverse;
+  list-style: none;
+  justify-content: center;
+}
+
+/* line 168, D:/golha/scss/main.scss */
+.category .categoryFrame .categoryFrame__product .categoryFrame__product__menu .categoryFrame__product__menu__item {
+  width: 25%;
+}
+
+/* line 171, D:/golha/scss/main.scss */
+.category .categoryFrame .categoryFrame__product .categoryFrame__product__menu .categoryFrame__product__menu__item .categoryFrame__product__menu__item_1 {
+  text-align: right;
+  font-family: "sans", sans-serif;
+  font-size: 12px;
+  border-right: 2px solid #ef2a18;
+  padding-right: 5px;
+  width: 100%;
+  margin: 30px 0;
+  line-height: 1;
+}
+
+/* line 178, D:/golha/scss/main.scss */
+.category .categoryFrame .categoryFrame__product .categoryFrame__product__menu .categoryFrame__product__menu__item .categoryFrame__product__menu__item_1 a {
+  font-size: 12px;
+  text-decoration: none;
+  cursor: pointer;
+  color: #828282;
+  font-family: "sans", sans-serif;
+  color: #2b2a2a;
+}
+
+/* line 196, D:/golha/scss/main.scss */
+.category .categoryFrame .categoryFrame__image {
+  width: 40%;
+}
+
+/*# sourceMappingURL=main.css.map */
+
+
+
+
+
+
+
+
+
+
